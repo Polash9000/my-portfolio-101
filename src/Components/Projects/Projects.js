@@ -16,6 +16,7 @@ import Language1 from './../../Images/Projects/Language1.jpg';
 import Language2 from './../../Images/Projects/Language2.jpg';
 import Language3 from './../../Images/Projects/Language3.jpg';
 import Project from '../Project/Project';
+import ProjectDetails from '../ProjectDetails/ProjectDetails';
 
 
 const myProjects = [
