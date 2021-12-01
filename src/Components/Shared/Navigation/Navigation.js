@@ -12,8 +12,9 @@ const Navigation = () => {
                         <Nav.Link as={HashLink} to="/home#home"><Button variant="dark">Home</Button></Nav.Link>
                         <Nav.Link as={HashLink} to="/home#aboutMe"><Button variant="dark">About me</Button></Nav.Link>
                         <Nav.Link as={HashLink} to="/home#projects"><Button variant="dark">Projects</Button></Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#blogs"><Button variant="dark">Blogs</Button></Nav.Link>
                         <Nav.Link as={HashLink} to="/home#contactMe"><Button variant="dark">Contact me</Button></Nav.Link>
-                        <Nav.Link href="https://drive.google.com/file/d/1nWFFKOZ5TiEIJv-F2hlqmWbCe7tVSWK6/view?usp=sharing" target="_blank"><Button variant="primary">Resume</Button></Nav.Link>
+                        <Nav.Link href="https://drive.google.com/file/d/1nWFFKOZ5TiEIJv-F2hlqmWbCe7tVSWK6/view?usp=sharing" target="_blank"><Button variant="info">Resume</Button></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

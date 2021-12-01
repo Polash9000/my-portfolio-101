@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <Card className="text-center mt-5 p-5">
+        <Card className="text-center mt-5 p-5 bg-secondary">
             <Card.Body>
                 <Card.Title>
                     <h1><span>HELLO I'M,</span> <br /> ABU BAKKAR SIDDIQUE</h1>
@@ -16,7 +16,7 @@ const Header = () => {
                 <a href="https://www.linkedin.com/in/abu-bakkar-siddique-007752181/" target="blank"><FaLinkedin style={{ width: '50px', height: '40px' }} /></a>
                 <a href="https://github.com/Polash9000" target="blank"><FaGithubSquare style={{ width: '50px', height: '40px' }} /></a>
                 <br /> <br />
-                <a href="https://drive.google.com/file/d/1nWFFKOZ5TiEIJv-F2hlqmWbCe7tVSWK6/view?usp=sharing" target="blank"><Button variant="primary">Download Resume</Button></a>
+                <a href="https://drive.google.com/file/d/1nWFFKOZ5TiEIJv-F2hlqmWbCe7tVSWK6/view?usp=sharing" target="blank"><Button variant="info">Download Resume</Button></a>
             </Card.Body>
         </Card >
     );
