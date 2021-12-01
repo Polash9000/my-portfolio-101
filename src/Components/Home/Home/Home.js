@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Header></Header>
             <AboutMe></AboutMe>
             <Projects></Projects>

@@ -10,7 +10,7 @@ const Project = ({ myProject }) => {
     return (
         <>
             <div class="project card">
-                <img src={img1} class="card-img-top" alt="..." />
+                <img src={img1} width="250px" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">{name}</h5>
                 </div>

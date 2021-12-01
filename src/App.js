@@ -8,6 +8,10 @@ import {
 import Home from './Components/Home/Home/Home';
 import Navigation from './Components/Shared/Navigation/Navigation';
 import Header from './Components/Home/Header/Header';
+import AboutMe from './Components/AboutMe/AboutMe';
+import Projects from './Components/Projects/Projects';
+import ContactMe from './Components/Home/ContactMe/ContactMe';
+import ProjectDetails from './Components/ProjectDetails/ProjectDetails';
 
 function App() {
   return (
@@ -20,6 +24,18 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/aboutMe">
+            <AboutMe></AboutMe>
+          </Route>
+          <Route path="/projects">
+            <Projects></Projects>
+          </Route>
+          <Route path="/projectDetails/:id">
+            <ProjectDetails></ProjectDetails>
+          </Route>
+          <Route path="/contactMe">
+            <ContactMe></ContactMe>
           </Route>
         </Switch>
       </Router>

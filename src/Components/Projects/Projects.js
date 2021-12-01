@@ -78,7 +78,8 @@ const myProjects = [
 
 const Projects = () => {
     return (
-        <>
+        <div id="projects" className="container">
+            <h3>My Projects</h3>
             <div class="container project-container">
 
                 {
@@ -89,7 +90,7 @@ const Projects = () => {
                 }
 
             </div>
-        </>
+        </div>
     );
 };
 

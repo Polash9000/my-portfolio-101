@@ -4,7 +4,7 @@ import profile from './../../Images/Profile/profile.png'
 
 const AboutMe = () => {
     return (
-        <div class="container mt-4 card mb-3">
+        <div id="aboutMe" class="container mt-4 card mb-3">
             <h4 class="card-title">About me</h4>
             <div class="row g-0 mt-3">
                 <div class="col-md-6 p-5">
